@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Kuriat Invoice (Package)", "Kuriat Invoice (Package)\Kuriat Invoice (Package).wapproj", "{9045204A-C292-42FB-B882-0FE54784D198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kuriat Invoice", "Kuriat Invoice\Kuriat Invoice.csproj", "{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9045204A-C292-42FB-B882-0FE54784D198}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Debug|ARM64.Build.0 = Debug|ARM64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Debug|x64.ActiveCfg = Debug|x64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Debug|x64.Build.0 = Debug|x64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Debug|x64.Deploy.0 = Debug|x64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Debug|x86.ActiveCfg = Debug|x86
+		{9045204A-C292-42FB-B882-0FE54784D198}.Debug|x86.Build.0 = Debug|x86
+		{9045204A-C292-42FB-B882-0FE54784D198}.Debug|x86.Deploy.0 = Debug|x86
+		{9045204A-C292-42FB-B882-0FE54784D198}.Release|ARM64.ActiveCfg = Release|ARM64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Release|ARM64.Build.0 = Release|ARM64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Release|ARM64.Deploy.0 = Release|ARM64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Release|x64.ActiveCfg = Release|x64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Release|x64.Build.0 = Release|x64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Release|x64.Deploy.0 = Release|x64
+		{9045204A-C292-42FB-B882-0FE54784D198}.Release|x86.ActiveCfg = Release|x86
+		{9045204A-C292-42FB-B882-0FE54784D198}.Release|x86.Build.0 = Release|x86
+		{9045204A-C292-42FB-B882-0FE54784D198}.Release|x86.Deploy.0 = Release|x86
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Debug|ARM64.Build.0 = Debug|ARM64
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Debug|x64.ActiveCfg = Debug|x64
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Debug|x64.Build.0 = Debug|x64
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Debug|x86.ActiveCfg = Debug|x86
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Debug|x86.Build.0 = Debug|x86
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Release|ARM64.ActiveCfg = Release|ARM64
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Release|ARM64.Build.0 = Release|ARM64
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Release|x64.ActiveCfg = Release|x64
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Release|x64.Build.0 = Release|x64
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Release|x86.ActiveCfg = Release|x86
+		{3DBBB9DC-3DE6-4920-B2C6-291812F6D186}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBAB91BE-840C-4120-9957-A426F0099FA1}
+	EndGlobalSection
+EndGlobal
