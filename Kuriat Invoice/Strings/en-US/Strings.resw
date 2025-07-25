@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="HomeNav.Content" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Invoice.Content" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="Estimate.Content" xml:space="preserve">
+    <value>Estimate</value>
+  </data>
+  <data name="PurchaseOrder.Content" xml:space="preserve">
+    <value>Purchase order</value>
+  </data>
+  <data name="NavigationView" xml:space="preserve">
+    <value>Kuriat Invoice</value>
+  </data>
+</root>

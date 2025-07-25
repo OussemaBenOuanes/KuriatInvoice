@@ -14,6 +14,29 @@
     </Window.SystemBackdrop>
 
     <Grid>
-
+        <NavigationView x:Name="nvSample" IsSettingsVisible="True" x:Uid="NavigationView">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Home" x:Uid="HomeNav" Tag="Home">
+                    <TextBlock Text="Accueil" />
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Page" x:Uid="Invoice" Tag="facture">
+                    <TextBlock Text="Facture" />
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Document" x:Uid="Estimate" Tag="devis">
+                    <TextBlock Text="Devis" />
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Shop" x:Uid="PurchaseOrder" Tag="bondachat">
+                    <TextBlock Text="Bon d'achat" />
+                </NavigationViewItem>
+            </NavigationView.MenuItems>
+            <Grid>
+                <SelectorBar x:Name="SelectorBar1" VerticalAlignment="Top" Margin="0,0,0,0">
+                    <SelectorBarItem x:Name="SelectorBarItemRecent" Text="Recent" Icon="Clock" />
+                    <SelectorBarItem x:Name="SelectorBarItemShared" Text="Shared" Icon="Share" />
+                    <SelectorBarItem x:Name="SelectorBarItemFavorites" Text="Favorites" Icon="Favorite" />
+                </SelectorBar>
+                <Frame x:Name="contentFrame" />
+            </Grid>
+        </NavigationView>
     </Grid>
 </Window>
